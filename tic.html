@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="tic.css">
+    <script src="tic.js"></script>
+</head>
+<body style="background-color:blanchedalmond;">
+    
+    <div id="main">
+        <h1  >TIC TAC TOE</h1>
+        <p id="ins" >Game starts by just tap on box
+            <br>First Player Starts as <b>X</b><br>Second Player as <b>O</b>
+        </p>
+        <br><br>
+        <input type="text" id="b1" style="color: white"onclick="grid1();checkWon();"readonly>
+        <input type="text" id="b2" style="color: white" onclick="grid2();checkWon();"readonly>
+        <input type="text" id="b3" style="color: white" onclick="grid3();checkWon();"readonly>
+        <input type="text" id="b4"  style="color: white"onclick="grid4();checkWon();"readonly>
+        <input type="text" id="b5" style="color: white" onclick="grid5();checkWon();"readonly>
+        <input type="text" id="b6"  style="color: white"onclick="grid6();checkWon();"readonly>
+        <input type="text" id="b7"  style="color: white"onclick="grid7();checkWon();"readonly>
+        <input type="text" id="b8"  style="color: white"onclick="grid8();checkWon();"readonly>
+        <input type="text" id="b9"  style="color: white"onclick="grid9();checkWon();"readonly>
+        <br><br>
+        <button id="reset"onclick="reset();"style="width: 80px;height: 20px;"><a style="color: white;text-decoration: none;">RESET</a></button>
+    </div>
+
+</body>
+</html>

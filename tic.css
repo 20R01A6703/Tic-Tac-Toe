@@ -1,0 +1,33 @@
+h1{
+    color:blueviolet
+}
+#main{
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    width:300px;
+    height:100px;
+    border:1px solid white;
+    font-size: 80px;
+    
+    text-align: center;
+    margin: auto;
+    background-color: rgb(158, 146, 146);
+    border-radius: 6px;
+}
+#reset{
+    background-color: blue;
+    height: 20px;width: 100px;
+    border: 2px solid white;
+    
+}
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+         
+    color: dodgerblue;
+    font-size: 17px;
+}
